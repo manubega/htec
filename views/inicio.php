@@ -1,11 +1,11 @@
 
 <?php 
 
-  include 'views/encabezado.php';
+  include 'views/modules/header.php';
 
-  include 'views/body.php';
+  include 'views/modules/body.php';
 
-  include 'views/footer.php';
+  include 'views/modules/footer.php';
 
 ?>    
 

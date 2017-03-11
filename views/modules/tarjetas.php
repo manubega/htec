@@ -1,4 +1,4 @@
- <!-- INICIO DEL CONTENEDOR -->
+<!-- INICIO DEL CONTENEDOR -->
         <div class="" id="resumenapp">
             <div class="row">
                 <h1 id="servicios">Somos Sinónimo de Calidad y Confianza</h1>
@@ -7,7 +7,7 @@
         </div>
         <!-- FIN DEL CONTENEDOR -->
 
- <!-- INICIO DE LAS TARJETAS -->
+ 
 
         <div class  ="container">
        <div class="card-group">
@@ -45,7 +45,7 @@
           <div class="card-block">
             <h4 class="card-title"><i class="fa fa-windows" aria-hidden="true"></i> Venta de Software</h4>
             <p class="card-text">Sistemas Contables y Administrativos Aspel, Puntos de Venta, Nóminas, Programas para Computadoras y Software Contable.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <p class="card-text"><small class="text-muted">Ultima actualizaciòn hace 3 mins</small></p>
           </div>
         </div>
          <div class="card">
@@ -66,4 +66,3 @@
         </div>
         </div>
         </div>
-         <!-- FIN DE LAS TARJETAS -->
