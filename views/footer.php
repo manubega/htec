@@ -26,7 +26,7 @@
               Líder en el mercado
              </p>
              <dl>
-               <dt>Dirección:</dt>
+               <dt>Calle:</dt>
                <dd><a href="tel: 477 195 6003">Morisot #113 San Miguel de Rentería </a></dd>
              </dl>
              <dl>
