@@ -39,7 +39,10 @@
     <!-- INICIO DE LAS TARJETAS -->
      <?php include 'views/modules/tarjetas.php'; ?>
          <!-- FIN DE LAS TARJETAS -->
-
+<header>
+   
+</header>
+       
                    <!-- INICIO DE LA DIRECCIÒN -->
          <?php include 'views/modules/direccion.php'; ?>
 

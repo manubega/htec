@@ -1,9 +1,20 @@
 <?php
+require_once 'models/email.php';
 
-$email = $_POST['email']; 
+class EmailC{
 
-echo $email;
+public function emailController(){
+
+	if(isset($_POST["correo"])){
+
+		$correo = $_POST["correo"];
+	}
+	$respuesta = EmailModels::emailModel($correo);
+
+	echo $respuesta;
+}
+}
 
 
 
- ?>
+ ?>		

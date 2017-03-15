@@ -12,7 +12,7 @@ class Enlaces{
 			$enlaces = 'index';
 		}
 
-		$respuesta = $EnlacesModels::enlacesModel($enlaces);
+		$respuesta = EnlacesModels::enlacesModel($enlaces);
 
 		include $respuesta;
 	}

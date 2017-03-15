@@ -26,6 +26,21 @@
                 margin-top:50px;
                 margin-bottom:50px;
             }
+            .ro{
+                width: 800px;
+                height: 300px;
+                margin-left: 250px;
+                margin-top: 80px;
+                align-items: center;
+            }
+
+            .ro p{
+                float: left;
+                font-size: 22px;
+                text-align: justify;
+
+            }
+           
             .card-img-top {
                 width:100%;
             }
