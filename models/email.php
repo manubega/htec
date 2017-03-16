@@ -5,22 +5,30 @@ require_once 'conexion.php';
 class EmailModels extends Conexion{
 
 	public function emailModel($email){
-		$stmt = Conexion::conectar()->prepare("INSERT INTO email (email) VALUES (:email)");	
-		$stmt->bindParam(":email", $email, PDO::PARAM_STR);
-		if($stmt->execute()){
+		$stmt = Conexion::conectar()->prepare("SELECT * FROM email WHERE email = '$email'");	
+		//$stmt->bindParam(":email", $email, PDO::PARAM_STR);
+		$stmt->execute();
 
-			return "exito";
+		if($stmt->fetch()){
+
+			return "El usuario ya existe";
 
 		}
 
 		else{
 
-			return "error";
+			$stmt = Conexion::conectar()->prepare("INSERT INTO email (email,fecha_ingreso) VALUES (:email,now())");
+			$stmt->bindParam(":email",$email, PDO::PARAM_STR);
+			$stmt->execute();
+			return "exito";
+
+
 
 		}
 
 		$stmt->close();
 
-
 	}
-	} ?>
+	}
+
+	 ?>

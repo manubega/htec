@@ -12,6 +12,7 @@ public function emailController(){
 	$respuesta = EmailModels::emailModel($correo);
 
 	echo $respuesta;
+
 }
 }
 
