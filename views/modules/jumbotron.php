@@ -1,4 +1,4 @@
- <div class="jumbotron">
+<div class="jumbotron">
           <h1 class="display-3" id="jumbotron">¡Proyectos a tu medida!</h1>
           <p class="lead">La razón para que tu Empresa crezca</p>
           <hr class="m-y-2">
@@ -6,7 +6,7 @@
           <p></p>
 
           <!--FORMULARIO PARA DAR DE ALTA EL CORREO DEL USUARIO -->
-         <form class="form-inline" method="POST" enctype="multipart/form-data">
+         <form class="form-inline" method="POST" enctype="multipart/form-data" onsubmit="return validarEmail()">
               <div class="form-group">
                 <label class="sr-only" for="direccionEmail">Dirección de email</label>
                 <div class="input-group">
@@ -25,3 +25,4 @@
     $email = new EmailC();
     $email->emailController();
      ?>
+

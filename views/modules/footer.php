@@ -9,9 +9,8 @@
    <br>
     </div>
           <div class="col-md-12 redes" id = "redes">
-                <p class="lead">Síguenos en las Redes Sociales</p>
-                <p><a href=""><img src="./views/img/facebook.png"></a><a href=""><img src="./views/img/twiter.png">
-                <img src="./views/img/Instagram.png" alt=""></a></p>
+                
+               <div id = "content"><p><a href="https://www.facebook.com/Hemisferio-Tecnol%C3%B3gico-Sa-De-Cv-194090267622430/?fref=ts"><img src="./views/img/facebook2.png"></a></p></div> 
  
     </div>
     <div class="col-md-12">

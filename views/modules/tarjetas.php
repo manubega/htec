@@ -7,7 +7,7 @@
                    <p class="lead">En el mercado actual destaca la seguridad informática, y esa es una de las áreas de mayor crecimiento e indespensable en toda empresa. Según el diario EL ECONOMISTA los servicios relacionados con las áreas de TI y seguridad informática se encuentran entre las más crecimiento en México y el mundo durante los últimos años.
                    <br>
                    <br>
-                    Si llegaste hasta aquí es porque estás conciente de ello y te interesa tener una formación profesional, con valor curricular, de talla internacional y accesible en temas de ciberseguridad y hacking.</p>
+                    Es importante estar conconciente de ello y tener una seguridad de manera profesional, cin valor unico, de talla internacional y accesible para el usuario final.</p>
                 </div>
                
             </div>

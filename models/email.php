@@ -17,7 +17,7 @@ class EmailModels extends Conexion{
 
 		else{
 
-			$stmt = Conexion::conectar()->prepare("INSERT INTO email (email,fecha_ingreso) VALUES (:email,now())");
+			$stmt = Conexion::conectar()->prepare("INSERT INTO email (email,fecha_registro) VALUES (:email,now())");
 			$stmt->bindParam(":email",$email, PDO::PARAM_STR);
 			$stmt->execute();
 			return "exito";
