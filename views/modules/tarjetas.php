@@ -26,7 +26,7 @@
           <div class="card-block">
             <h4 class="card-title"><i class="fa fa-laptop" aria-hidden="true"></i> Soporte Técnico</h4>
             <p class="card-text">Servicio de Mantenimiento Preventivo, Correctivo y Soporte Tecnico. Ofrecemos Servicios de mantenimiento preventivo para garantizar el funcionamiento óptimo de los sistemas y equipos para que las personas puedan operar de manera adecuada y mejorar su desempeño.</p>
-            <p class="card-text"><small class="text-muted"><a href="index.php?action=soporte">Ver mas...</a></small></p>
+            <p class="card-text"><small class="text-muted">Ultima actualizaciòn hace 2 semanas</small></p>
           </div>
         </div>
          <div class="card">

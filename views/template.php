@@ -68,6 +68,9 @@
     });
 
     </script>
+    <script src= "jquery-3.0.0.min.js">
+        
+    </script>
     
   </body>
 </html>

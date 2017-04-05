@@ -6,11 +6,15 @@ class EmailC{
 public function emailController(){
 
 $correo = null;
-	if(isset($_POST["correo"])){
+	if(!empty($_POST["correo"])){
 
 		$correo = $_POST["correo"];
 	}
 	$respuesta = EmailModels::emailModel($correo);
+
+	if($respuesta == "error"){
+		echo "<script>alert('EL email ya esta registrado');</script>";
+	}
 
 }
 }

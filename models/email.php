@@ -11,7 +11,7 @@ class EmailModels extends Conexion{
 
 		if($stmt->fetch()){
 
-			return "El usuario ya existe";
+			return "error";
 
 		}
 
